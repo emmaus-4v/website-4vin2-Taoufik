@@ -1,34 +1,34 @@
 /* Basislayout */
 
-html, body {
+html, body.darkmode{
     height: 100%;
     padding: 0;
-    background-color: #c7bebe;  
+    background-color: #7f7f7f;  
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
 }
 
 
-main {
+main .darkmode{
     margin: 0 auto;
     width: 700px;
     position: relative;
 }
 
 
-article {
+article .darkmode {
     text-align: justify;
 }
 
 
-header {
+header .darkmode{
     color: skyblue;
     text-align: center;
 }
 
 
-footer {
+footer .darkmode{
     text-align: center;
     padding-bottom: 10px;
 }
@@ -36,27 +36,27 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefLinks {
+img.zweefLinks .darkmode {
     float: left;
     margin-right: 15px;
 }
 
-.smalltext {
+.smalltext .darkmode{
     font-size: 0.7em;
 }
 
-a {
+a .darkmode{
     color: skyblue;
     text-decoration: none;
 }
 
-a:hover {
+a:hover .darkmode{
     text-decoration: underline;
 }
 
 
 /* navigatiebalk */
-nav ul {
+nav ul .darkmode{
     list-style-type: none;
     margin: auto;
     padding: 0;
@@ -65,17 +65,17 @@ nav ul {
     
 }
 
-nav ul li {
+nav ul li .darkmode{
    
     float: left;
 }
 
-nav ul li.rechts {
+nav ul li.rechts .darkmode{
     
     float: right;
 }
 
-nav li a {
+nav li a .darkmode{
     display: block;
     color: white;
     text-align: center;
@@ -83,11 +83,11 @@ nav li a {
     text-decoration: none;
 }
 
-nav li a:hover {
+nav li a:hover .darkmode{
     background-color: #aaaaaa;
 }
 
-nav li a.active {
+nav li a.active .darkmode{
     background-color: rgb(116, 88, 114);
 }
 #dance {
