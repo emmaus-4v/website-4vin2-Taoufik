@@ -9,6 +9,14 @@ html, body {
     font: Verdana, Arial, Sans-Serif;
 }
 
+.dark-mode {
+    background-color:#5865F2;
+    color:white;
+
+}
+
+
+
 
 main {
     margin: 0 auto;

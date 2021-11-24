@@ -25,10 +25,16 @@
                     <li><a href="overmij.html">Voeding</a></li>
                     <li><a href="info.html">Leefruimte</a></li>
                     <li><a href="ekvbiev.html">ll</a></li>
-                    <li class="rechts" ><a href="index copy.html">Dark Mode</a></li>
+                    <li class="rechts" ><button onclick="myFunction()">Dark Mode</button></li>
                     <li class="rechts" ><img class="toggle" src="afbeeldingen/darkmodetoggle.png" ></li>
                 </ul>
             </nav>
+            <script>
+                function myFunction() {
+                   var element = document.body;
+                   element.classList.toggle("dark-mode");
+                }
+                </script>
             
             <article>
                 <p> <img id="Budgepic" src="afbeeldingen/budgg.jpg"> 
