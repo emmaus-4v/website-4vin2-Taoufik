@@ -3,14 +3,14 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #c7bebe;  
+    background-color: white;  
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
 }
 
 .dark-mode {
-    background-color:#5865F2;
+    background-color:#23272A;
     color:white;
 
 }
@@ -68,7 +68,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #5865F2;
     overflow: hidden;
     
 }
@@ -111,4 +111,7 @@ nav li a.active {
     height:40px;
 }
 
+.togg {
+top:10px;
+}
 
