@@ -70,6 +70,7 @@ nav ul {
     padding: 0;
     background-color: #5865F2;
     overflow: hidden;
+    border-radius: 14px;
     
 }
 
@@ -96,7 +97,7 @@ nav li a:hover {
 }
 
 nav li a.active {
-  background-color: rgb(16, 141, 99);  
+  background-color:grey;  
 }
 #dance {
     width: 200px;
@@ -112,6 +113,17 @@ nav li a.active {
 }
 
 .togg {
-top:10px;
+height: 46px;
+}
+button{
+    background-color: grey;
+    color:white;
+    border-radius: 14px;
+    border-color: black;
+
 }
 
+.voeding {
+    width: 200px;
+    float: left;
+}
