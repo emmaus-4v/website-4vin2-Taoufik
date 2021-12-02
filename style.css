@@ -1,15 +1,17 @@
 /* Basislayout */
 
 html, body {
-    height: 100%;
-    padding: 0;
-    background-color: white;  
+    height: 100px; 
+    background-color: rgb(216, 216, 187);
+    margin: auto;
+    padding: auto;
     
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
 }
 
 .dark-mode {
+height: auto;
     background-color:#23272A;
     color:white;
 
@@ -27,6 +29,7 @@ main {
 
 article {
     text-align: justify;
+    float: right;
 }
 
 
