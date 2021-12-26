@@ -15,7 +15,9 @@ html, body {
 height: auto;
     background-color:#23272A;
     color:white;
-
+    margin: auto;
+    padding: auto;
+    font: Verdana, Arial, Sans-Serif;
 }
 
 
@@ -109,10 +111,6 @@ nav li a.active {
     width: 200px;
     
 }
-#Budgepic{
-    width: 200px;
-    
-}
 
 .toggle { 
     height:40px;
@@ -132,13 +130,55 @@ button{
 .voeding {
     width: 200px;
     float: left;
+    border-radius: 10px;
+}
+.voeding-tekst{
+  font-size: 20px;
+}
+.zaden{
+  width:200px;
+  position:absolute;
+  float:right;
+}
+.giftig{
+  font-size: 20px;
+  
+}
+
 }
 p {
     font-family: 'Times New Roman', Times, serif;
 }
+#Budgepic{
+    width: 200px;
+    border-radius: 10px;
 
-.onepic{
-    font-size: 30px;
+}
+
+.leefomgeving-tekst{
+  font-size: 20px;
+}
+
+.australie{
+  width:400px;
+}
+
+
+.klein{
+    width:200px;
+    border: 10px;
+}
+
+.geslacht-tekst{
+  font-size:20px;
+}
+
+.foto-geslacht{
+  width:400px;
+}
+
+.intro{
+  font-size: 25px;
 }
 
 .example {
@@ -219,9 +259,42 @@ p {
     opacity: 1;
     transform: translateY(50px);
     -webkit-transform: translateY(50px);
-  
-    .voeding{
-     border-color: #000000; 
-    border-width: 2px;
-    border-style: solid;
-  }
+
+    .example2 {
+        position: relative;
+        padding: 0;
+        width: 200px;
+        display: block;
+        cursor: pointer;
+        overflow: hidden;
+      }
+      .content2 {
+        opacity: 0;
+        font-size: 30px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #ffefef;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 200px;
+        height: 200px;
+        -webkit-transition: all 400ms ease-out;
+        -moz-transition: all 400ms ease-out;
+        -o-transition: all 400ms ease-out;
+        -ms-transition: all 400ms ease-out;
+        transition: all 400ms ease-out;
+        text-align: center;
+      }
+      .example2 .content2:hover {
+        opacity: 1;
+      }
+      .example2 .content2 .text2 {
+        height: 0;
+        opacity: 1;
+        transition-delay: 0s;
+        transition-duration: 0.4s;
+      }
+      .example2 .content2:hover .text2 {
+        opacity: 1;
+        transform: translateY(50px);
+        -webkit-transform: translateY(50px);
